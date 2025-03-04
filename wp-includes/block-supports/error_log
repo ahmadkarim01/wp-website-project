@@ -1,0 +1,164 @@
+[30-Jan-2025 12:59:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/position.php on line 145
+[04-Feb-2025 00:31:30 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/colors.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/colors.php on line 138
+[05-Feb-2025 07:12:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/layout.php:945
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/layout.php on line 945
+[05-Feb-2025 07:25:40 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/block-style-variations.php:251
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/block-style-variations.php on line 251
+[05-Feb-2025 07:45:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/settings.php on line 151
+[05-Feb-2025 08:26:39 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/background.php on line 111
+[05-Feb-2025 09:55:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/typography.php:684
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/typography.php on line 684
+[05-Feb-2025 10:10:55 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/custom-classname.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/custom-classname.php on line 59
+[05-Feb-2025 12:09:47 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/duotone.php on line 36
+[05-Feb-2025 12:18:41 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php on line 79
+[05-Feb-2025 12:33:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/dimensions.php on line 164
+[05-Feb-2025 15:12:32 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/align.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/align.php on line 59
+[05-Feb-2025 16:00:42 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/border.php on line 170
+[05-Feb-2025 17:24:23 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/colors.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/colors.php on line 138
+[05-Feb-2025 19:03:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/position.php on line 145
+[05-Feb-2025 19:43:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/generated-classname.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/generated-classname.php on line 66
+[05-Feb-2025 20:51:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/elements.php on line 263
+[05-Feb-2025 22:40:09 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/spacing.php on line 83
+[09-Feb-2025 04:30:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php on line 79
+[11-Feb-2025 19:05:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/spacing.php on line 83
+[11-Feb-2025 19:33:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/dimensions.php on line 164
+[11-Feb-2025 20:05:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/background.php on line 111
+[11-Feb-2025 21:05:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/dimensions.php on line 164
+[11-Feb-2025 22:05:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php on line 79
+[12-Feb-2025 04:41:06 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php on line 79
+[12-Feb-2025 19:25:16 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/align.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/align.php on line 59
+[12-Feb-2025 19:25:18 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/background.php on line 111
+[12-Feb-2025 19:25:19 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/block-style-variations.php:251
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/block-style-variations.php on line 251
+[12-Feb-2025 19:25:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/border.php on line 170
+[12-Feb-2025 19:25:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/colors.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/colors.php on line 138
+[12-Feb-2025 19:25:23 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/custom-classname.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/custom-classname.php on line 59
+[12-Feb-2025 19:25:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/dimensions.php on line 164
+[12-Feb-2025 19:25:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/duotone.php on line 36
+[12-Feb-2025 19:25:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/elements.php on line 263
+[12-Feb-2025 19:25:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/generated-classname.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/generated-classname.php on line 66
+[12-Feb-2025 19:25:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/layout.php:945
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/layout.php on line 945
+[12-Feb-2025 19:25:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/position.php on line 145
+[12-Feb-2025 19:25:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/ticazyxt/blackspora.site/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/settings.php on line 151
+[12-Feb-2025 19:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/shadow.php on line 79
+[12-Feb-2025 19:25:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/spacing.php on line 83
+[12-Feb-2025 19:25:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/ticazyxt/blackspora.site/wp-includes/block-supports/typography.php:684
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-supports/typography.php on line 684

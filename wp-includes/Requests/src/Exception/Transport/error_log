@@ -1,0 +1,4 @@
+[16-Feb-2025 09:43:04 UTC] PHP Fatal error:  Uncaught Error: Class "WpOrg\Requests\Exception\Transport" not found in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Exception/Transport/Curl.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Exception/Transport/Curl.php on line 17

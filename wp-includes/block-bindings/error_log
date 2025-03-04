@@ -1,0 +1,16 @@
+[05-Feb-2025 08:16:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/ticazyxt/blackspora.site/wp-includes/block-bindings/post-meta.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-bindings/post-meta.php on line 70
+[05-Feb-2025 19:40:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/ticazyxt/blackspora.site/wp-includes/block-bindings/pattern-overrides.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-bindings/pattern-overrides.php on line 47
+[12-Feb-2025 19:34:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/ticazyxt/blackspora.site/wp-includes/block-bindings/pattern-overrides.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-bindings/pattern-overrides.php on line 47
+[12-Feb-2025 19:34:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/ticazyxt/blackspora.site/wp-includes/block-bindings/post-meta.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/block-bindings/post-meta.php on line 70

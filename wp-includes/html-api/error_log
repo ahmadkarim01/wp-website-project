@@ -1,0 +1,16 @@
+[05-Feb-2025 11:31:07 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_HTML_Tag_Processor' not found in /home/ticazyxt/blackspora.site/wp-includes/html-api/class-wp-html-processor.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/html-api/class-wp-html-processor.php on line 143
+[05-Feb-2025 15:30:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Token_Map' not found in /home/ticazyxt/blackspora.site/wp-includes/html-api/html5-named-character-references.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/html-api/html5-named-character-references.php on line 38
+[12-Feb-2025 19:28:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_HTML_Tag_Processor" not found in /home/ticazyxt/blackspora.site/wp-includes/html-api/class-wp-html-processor.php:143
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/html-api/class-wp-html-processor.php on line 143
+[12-Feb-2025 19:28:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Token_Map" not found in /home/ticazyxt/blackspora.site/wp-includes/html-api/html5-named-character-references.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/html-api/html5-named-character-references.php on line 38

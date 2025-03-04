@@ -1,0 +1,8 @@
+[16-Feb-2025 09:47:27 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Util" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/ChaCha20/Ctx.php on line 10
+[16-Feb-2025 11:50:24 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_ChaCha20_Ctx" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/ChaCha20/IetfCtx.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/ChaCha20/IetfCtx.php on line 10

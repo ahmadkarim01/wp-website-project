@@ -1,0 +1,65 @@
+[08-Feb-2025 04:50:09 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Util" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/AES.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/AES.php on line 14
+[08-Feb-2025 05:28:40 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_AES" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/AEGIS128L.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/AEGIS128L.php on line 10
+[08-Feb-2025 13:33:57 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_AES" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/AEGIS256.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/AEGIS256.php on line 10
+[10-Feb-2025 15:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_HSalsa20" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/XSalsa20.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/XSalsa20.php on line 10
+[10-Feb-2025 16:59:35 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Util" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Poly1305.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Poly1305.php on line 10
+[10-Feb-2025 17:46:25 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Curve25519_H" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Curve25519.php:16
+Stack trace:
+#0 /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Ed25519.php(7): require_once()
+#1 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Curve25519.php on line 16
+[10-Feb-2025 18:01:17 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Ed25519" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Ristretto255.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Ristretto255.php on line 6
+[10-Feb-2025 18:13:18 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Salsa20" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/HSalsa20.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/HSalsa20.php on line 10
+[10-Feb-2025 19:11:41 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Util" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/SipHash.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/SipHash.php on line 12
+[10-Feb-2025 20:10:43 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_ChaCha20" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/HChaCha20.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/HChaCha20.php on line 10
+[10-Feb-2025 21:12:29 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Util" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/BLAKE2b.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/BLAKE2b.php on line 12
+[10-Feb-2025 23:15:14 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_HChaCha20" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/XChaCha20.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/XChaCha20.php on line 10
+[10-Feb-2025 23:43:26 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Curve25519_H" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Curve25519.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Curve25519.php on line 16
+[11-Feb-2025 03:11:32 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Util" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Salsa20.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Salsa20.php on line 10
+[11-Feb-2025 03:24:51 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Curve25519" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/X25519.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/X25519.php on line 10
+[11-Feb-2025 03:40:40 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Util" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/ChaCha20.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/ChaCha20.php on line 10

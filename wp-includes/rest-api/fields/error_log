@@ -1,0 +1,36 @@
+[30-Jan-2025 03:34:41 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[05-Feb-2025 13:08:14 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[05-Feb-2025 13:25:53 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[05-Feb-2025 19:06:04 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[05-Feb-2025 22:53:17 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_REST_Meta_Fields' not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17
+[12-Feb-2025 19:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Meta_Fields" not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-comment-meta-fields.php on line 17
+[12-Feb-2025 19:24:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Meta_Fields" not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-post-meta-fields.php on line 17
+[12-Feb-2025 19:24:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Meta_Fields" not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-term-meta-fields.php on line 17
+[12-Feb-2025 19:24:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_REST_Meta_Fields" not found in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/rest-api/fields/class-wp-rest-user-meta-fields.php on line 17

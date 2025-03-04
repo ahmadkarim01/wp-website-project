@@ -1,0 +1,632 @@
+0000.000 (0) Opened log file at time: Sun, 16 Feb 2025 11:05:28 +0000 on https://blackspora.site
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.2 PHP: 8.4.3 (litespeed, Linux premium274.web-hosting.com 4.18.0-513.24.1.lve.1.el8.x86_64 #1 SMP Thu May 9 15:10:09 UTC 2024 x86_64) MySQL: 10.6.20-MariaDB-cll-lve (max packet size=268435456) WPLANG: fr_FR Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 12.7M | 14M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.084 (0) Free space on disk containing Updraft's temporary directory: 1838512.4 MB
+0000.089 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.101 (0) Semaphore (fd, wp_options) being initialised
+0000.105 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.114 (0) Set semaphore last lock (fd) time to 2025-02-16 11:05:28
+0000.116 (0) Semaphore lock (fd) complete
+0000.135 (0) Backup run: resumption=0, nonce=22c6104e014e, file_nonce=22c6104e014e begun at=1739703928 (0s ago), job type=backup
+0000.140 (0) Scheduling a resumption (1) after 300 seconds (1739704228) in case this run gets aborted
+0000.171 (0) PHP event: code E_DEPRECATED: rtrim(): Passing null to parameter #1 ($string) of type string is deprecated (line 2819, wp-includes/formatting.php)
+0000.177 (0) Checking if we have a zip executable available
+0000.178 (0) Testing: /usr/bin/zip
+0000.199 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.206 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.213 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.218 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.227 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.245 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.249 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.280 (0) Working binary zip found: /usr/bin/zip
+0000.289 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.290 (0) Creation of backups of directories: beginning
+0000.315 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.416 (0) Total entities for the zip file: 2536 directories, 10883 files (0 skipped as non-modified), 201.9 MB
+0003.419 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.553 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: size is now: 0.60 MB
+0003.559 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 100 files added (on-disk size: 603.9 KB)
+0003.564 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 200 files added (on-disk size: 603.9 KB)
+0003.568 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 300 files added (on-disk size: 603.9 KB)
+0003.570 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 400 files added (on-disk size: 603.9 KB)
+0003.573 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 500 files added (on-disk size: 603.9 KB)
+0003.576 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 600 files added (on-disk size: 603.9 KB)
+0003.578 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 700 files added (on-disk size: 603.9 KB)
+0003.581 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 800 files added (on-disk size: 603.9 KB)
+0003.584 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 900 files added (on-disk size: 603.9 KB)
+0003.587 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1000 files added (on-disk size: 603.9 KB)
+0003.589 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.3 MB, 10883 files batched, 1001 (1002) added so far); re-opening (prior size: 603.9 KB)
+0004.615 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: size is now: 1.90 MB
+0004.625 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1100 files added (on-disk size: 1949 KB)
+0004.629 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1200 files added (on-disk size: 1949 KB)
+0004.634 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1300 files added (on-disk size: 1949 KB)
+0004.638 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1400 files added (on-disk size: 1949 KB)
+0004.653 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1500 files added (on-disk size: 1949 KB)
+0004.658 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1600 files added (on-disk size: 1949 KB)
+0004.662 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1700 files added (on-disk size: 1949 KB)
+0004.667 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1800 files added (on-disk size: 1949 KB)
+0004.673 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 1900 files added (on-disk size: 1949 KB)
+0004.675 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.7 MB, 10883 files batched, 900 (1902) added so far); re-opening (prior size: 1949 KB)
+0006.600 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: size is now: 8.10 MB
+0006.612 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 2.5 s, rate: 10373.7 KB/s)
+0006.631 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.6313860416412, normalised_time=2.46778584069, max_time=6.6259388923645, data points known=1, old_max_bytes=26214400, new_max_bytes=63735838)
+0006.637 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2000 files added (on-disk size: 8328.8 KB)
+0006.643 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2100 files added (on-disk size: 8328.8 KB)
+0006.654 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2200 files added (on-disk size: 8328.8 KB)
+0006.658 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2300 files added (on-disk size: 8328.8 KB)
+0006.662 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2400 files added (on-disk size: 8328.8 KB)
+0006.666 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2500 files added (on-disk size: 8328.8 KB)
+0006.671 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2600 files added (on-disk size: 8328.8 KB)
+0006.681 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2700 files added (on-disk size: 8328.8 KB)
+0006.687 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2800 files added (on-disk size: 8328.8 KB)
+0006.692 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 2900 files added (on-disk size: 8328.8 KB)
+0006.701 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.5 MB, 10883 files batched, 1001 (2903) added so far); re-opening (prior size: 8328.8 KB)
+0008.563 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: size is now: 14.90 MB
+0008.570 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3000 files added (on-disk size: 15209.7 KB)
+0008.578 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3100 files added (on-disk size: 15209.7 KB)
+0008.581 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3200 files added (on-disk size: 15209.7 KB)
+0008.584 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3300 files added (on-disk size: 15209.7 KB)
+0008.587 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3400 files added (on-disk size: 15209.7 KB)
+0008.590 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3500 files added (on-disk size: 15209.7 KB)
+0008.593 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3600 files added (on-disk size: 15209.7 KB)
+0008.597 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3700 files added (on-disk size: 15209.7 KB)
+0008.601 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3800 files added (on-disk size: 15209.7 KB)
+0008.605 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 3900 files added (on-disk size: 15209.7 KB)
+0008.606 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.7 MB, 10883 files batched, 1001 (3904) added so far); re-opening (prior size: 15209.7 KB)
+0009.792 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: size is now: 18.10 MB
+0009.813 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4000 files added (on-disk size: 18524.9 KB)
+0009.820 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4100 files added (on-disk size: 18524.9 KB)
+0009.824 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4200 files added (on-disk size: 18524.9 KB)
+0009.829 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4300 files added (on-disk size: 18524.9 KB)
+0009.833 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4400 files added (on-disk size: 18524.9 KB)
+0009.837 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4500 files added (on-disk size: 18524.9 KB)
+0009.840 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4600 files added (on-disk size: 18524.9 KB)
+0009.844 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4700 files added (on-disk size: 18524.9 KB)
+0009.847 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4800 files added (on-disk size: 18524.9 KB)
+0009.850 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 4900 files added (on-disk size: 18524.9 KB)
+0009.853 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (27 MB, 10883 files batched, 1001 (4905) added so far); re-opening (prior size: 18524.9 KB)
+0012.162 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: size is now: 25.80 MB
+0012.171 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5000 files added (on-disk size: 26444 KB)
+0012.177 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5100 files added (on-disk size: 26444 KB)
+0012.248 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5200 files added (on-disk size: 26444 KB)
+0012.253 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5300 files added (on-disk size: 26444 KB)
+0012.257 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5400 files added (on-disk size: 26444 KB)
+0012.262 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5500 files added (on-disk size: 26444 KB)
+0012.268 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5600 files added (on-disk size: 26444 KB)
+0012.272 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5700 files added (on-disk size: 26444 KB)
+0012.275 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5800 files added (on-disk size: 26444 KB)
+0012.284 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 5900 files added (on-disk size: 26444 KB)
+0012.285 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.4 MB, 10883 files batched, 1001 (5906) added so far); re-opening (prior size: 26444 KB)
+0014.730 (0) PHP event: code E_WARNING: filesize(): stat failed for /home/ticazyxt/blackspora.site/wp-content/updraft/backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp (line 506, wp-content/plugins/updraftplus/includes/class-zip.php)
+0014.743 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: size is now: 33.20 MB
+0014.750 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6000 files added (on-disk size: 34016.3 KB)
+0014.763 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6100 files added (on-disk size: 34016.3 KB)
+0014.770 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6200 files added (on-disk size: 34016.3 KB)
+0014.778 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6300 files added (on-disk size: 34016.3 KB)
+0014.782 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6400 files added (on-disk size: 34016.3 KB)
+0014.788 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6500 files added (on-disk size: 34016.3 KB)
+0014.793 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6600 files added (on-disk size: 34016.3 KB)
+0014.797 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6700 files added (on-disk size: 34016.3 KB)
+0014.807 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6800 files added (on-disk size: 34016.3 KB)
+0014.812 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 6900 files added (on-disk size: 34016.3 KB)
+0014.815 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (32.9 MB, 10883 files batched, 1001 (6907) added so far); re-opening (prior size: 34016.3 KB)
+0017.433 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: size is now: 52.20 MB
+0017.455 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7000 files added (on-disk size: 53476.4 KB)
+0017.481 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7100 files added (on-disk size: 53476.4 KB)
+0017.494 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7200 files added (on-disk size: 53476.4 KB)
+0017.518 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7300 files added (on-disk size: 53476.4 KB)
+0017.533 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7400 files added (on-disk size: 53476.4 KB)
+0017.548 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7500 files added (on-disk size: 53476.4 KB)
+0017.565 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7600 files added (on-disk size: 53476.4 KB)
+0017.583 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7700 files added (on-disk size: 53476.4 KB)
+0017.593 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7800 files added (on-disk size: 53476.4 KB)
+0017.614 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 7900 files added (on-disk size: 53476.4 KB)
+0017.635 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (1.8 MB, 10883 files batched, 1001 (7908) added so far); re-opening (prior size: 53476.4 KB)
+0019.394 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8000 files added (on-disk size: 54307.5 KB)
+0019.481 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8100 files added (on-disk size: 54307.5 KB)
+0019.519 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8200 files added (on-disk size: 54307.5 KB)
+0019.602 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8300 files added (on-disk size: 54307.5 KB)
+0019.633 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8400 files added (on-disk size: 54307.5 KB)
+0019.651 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8500 files added (on-disk size: 54307.5 KB)
+0019.656 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8600 files added (on-disk size: 54307.5 KB)
+0019.660 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8700 files added (on-disk size: 54307.5 KB)
+0019.690 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8800 files added (on-disk size: 54307.5 KB)
+0019.703 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 8900 files added (on-disk size: 54307.5 KB)
+0019.708 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.6 MB, 10883 files batched, 1001 (8909) added so far); re-opening (prior size: 54307.5 KB)
+0022.684 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9000 files added (on-disk size: 61791.2 KB)
+0022.689 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9100 files added (on-disk size: 61791.2 KB)
+0022.708 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9200 files added (on-disk size: 61791.2 KB)
+0022.723 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9300 files added (on-disk size: 61791.2 KB)
+0022.737 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9400 files added (on-disk size: 61791.2 KB)
+0022.747 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9500 files added (on-disk size: 61791.2 KB)
+0022.808 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9600 files added (on-disk size: 61791.2 KB)
+0022.813 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9700 files added (on-disk size: 61791.2 KB)
+0022.823 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9800 files added (on-disk size: 61791.2 KB)
+0022.831 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 9900 files added (on-disk size: 61791.2 KB)
+0022.835 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.2 MB, 10883 files batched, 1001 (9910) added so far); re-opening (prior size: 61791.2 KB)
+0025.963 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10000 files added (on-disk size: 70552.5 KB)
+0025.970 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10100 files added (on-disk size: 70552.5 KB)
+0025.978 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10200 files added (on-disk size: 70552.5 KB)
+0025.988 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10300 files added (on-disk size: 70552.5 KB)
+0025.993 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10400 files added (on-disk size: 70552.5 KB)
+0026.000 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10500 files added (on-disk size: 70552.5 KB)
+0026.018 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10600 files added (on-disk size: 70552.5 KB)
+0026.026 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10700 files added (on-disk size: 70552.5 KB)
+0026.033 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.tmp: 10800 files added (on-disk size: 70552.5 KB)
+0029.165 (0) Creating zip file manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.list-temp.tmp)
+0029.213 (0) Successfully created zip file manifest (size: 965187)
+0030.067 (0) Created plugins zip (0) - 77263.9 KB in 29.7 s (2603.7 KB/s) (sha1: 2431653f0728240381c77d4634a052025d3354b6, sha256: 391188532e7e9949becf2861f440c9a6b6b81f8681e94d36dc1771bbfb9c5bbe)
+0030.090 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.100 (0) No remote despatch: user chose no remote backup service
+0030.102 (0) Recording as successfully uploaded: backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip
+0030.105 (0) Deleting zip manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip.list.tmp)
+0030.111 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0030.112 (0) Number of backup sets in history: 0; groups (db): 1
+0030.114 (0) Number of backup sets in history: 0; groups (files): 1
+0030.117 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0030.146 (0) Beginning creation of dump of themes (split every: 400 MB)
+0030.292 (0) Total entities for the zip file: 35 directories, 133 files (0 skipped as non-modified), 7.9 MB
+0030.297 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.968 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-themes.zip.tmp: size is now: 4.50 MB
+0030.982 (0) Creating zip file manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-themes.zip.list-temp.tmp)
+0030.986 (0) Successfully created zip file manifest (size: 7321)
+0031.046 (0) Created themes zip (0) - 4657.5 KB in 0.8 s (5723.4 KB/s) (sha1: 153f9502d13366bb00f32fb351723fa8eb426c65, sha256: aaa6136ec813a20913b9f5b83ad7b3c0230dc4309fe8d2a381007bcf03678336)
+0031.063 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0031.064 (0) No remote despatch: user chose no remote backup service
+0031.066 (0) Recording as successfully uploaded: backup_2025-02-16-1105_blacksporasite_22c6104e014e-themes.zip
+0031.074 (0) Deleting zip manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-themes.zip.list.tmp)
+0031.078 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0031.082 (0) Number of backup sets in history: 0; groups (db): 1
+0031.086 (0) Number of backup sets in history: 0; groups (files): 1
+0031.087 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0031.097 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0031.098 (0) Looking for candidates to backup in: /home/ticazyxt/blackspora.site/wp-content/uploads
+0031.099 (0) finding files: themes.php: adding to list (1)
+0031.100 (0) finding files: elementor: adding to list (2)
+0031.112 (0) finding files: rara-demo-pack: adding to list (3)
+0031.115 (0) finding files: 2023: adding to list (4)
+0031.117 (0) finding files: 2024: adding to list (5)
+0031.118 (0) finding files: essential-addons-elementor: adding to list (6)
+0031.120 (0) finding files: wpcf7_uploads: adding to list (7)
+0031.121 (0) finding files: 2025: adding to list (8)
+0031.122 (0) finding files: .htaccess: adding to list (9)
+0031.124 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0031.310 (0) Total entities for the zip file: 18 directories, 961 files (0 skipped as non-modified), 43.3 MB
+0031.319 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0031.323 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0031.335 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0031.344 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0031.350 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0031.354 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0031.360 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0031.363 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0031.366 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0033.342 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.tmp: size is now: 41.50 MB
+0033.379 (0) Creating zip file manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.list-temp.tmp)
+0033.385 (0) Successfully created zip file manifest (size: 69740)
+0033.820 (0) Created uploads zip (0) - 42462.3 KB in 2.6 s (16339.3 KB/s) (sha1: 25b767ef65379c9d96069fffb15c9c458aa9d0f4, sha256: 4b750d2721da0bf29dbe8229fd8c7cc06178c6a1f2e7a080ca8b34f9c10d68a1)
+0033.842 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0033.846 (0) No remote despatch: user chose no remote backup service
+0033.848 (0) Recording as successfully uploaded: backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip
+0033.859 (0) Deleting zip manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip.list.tmp)
+0033.867 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0033.878 (0) Number of backup sets in history: 0; groups (db): 1
+0033.880 (0) Number of backup sets in history: 0; groups (files): 1
+0033.884 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0033.901 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0033.979 (0) Total entities for the zip file: 1 directories, 2 files (0 skipped as non-modified), 0 MB
+0034.007 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-mu-plugins.zip.tmp: size is now: 0.00 MB
+0034.030 (0) Creating zip file manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-mu-plugins.zip.list-temp.tmp)
+0034.039 (0) Successfully created zip file manifest (size: 100)
+0034.053 (0) Created mu-plugins zip (0) - 2 KB in 0.1 s (27.6 KB/s) (sha1: de96ad17f2af5bc211016363062deb2c7350d14f, sha256: 1e1c167e4c4919ad5678ebc231f3e82445909bde2fdbeabfb3d8a9e4a43b381e)
+0034.064 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0034.065 (0) No remote despatch: user chose no remote backup service
+0034.081 (0) Recording as successfully uploaded: backup_2025-02-16-1105_blacksporasite_22c6104e014e-mu-plugins.zip
+0034.103 (0) Deleting zip manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-mu-plugins.zip.list.tmp)
+0034.127 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0034.134 (0) Number of backup sets in history: 0; groups (db): 1
+0034.136 (0) Number of backup sets in history: 0; groups (files): 1
+0034.144 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0034.162 (0) Beginning backup of other directories found in the content directory (index: 0)
+0034.167 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0034.169 (0) Looking for candidates to backup in: /home/ticazyxt/blackspora.site/wp-content
+0034.171 (0) finding files: themes: skipping: this is the themes directory
+0034.172 (0) finding files: themes.php: adding to list (1)
+0034.175 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0034.176 (0) finding files: upgrade-temp-backup: adding to list (2)
+0034.178 (0) finding files: fonts: adding to list (3)
+0034.180 (0) finding files: languages: adding to list (4)
+0034.181 (0) finding files: uploads: skipping: this is the uploads directory
+0034.182 (0) finding files: .litespeed_conf.dat: adding to list (5)
+0034.187 (0) finding files: plugins: skipping: this is the plugins directory
+0034.204 (0) finding files: index.php: adding to list (6)
+0034.207 (0) finding files: upgrade: skipping: excluded by options
+0034.214 (0) finding files: wflogs: adding to list (7)
+0034.218 (0) finding files: updraft: skipping: this is the updraft directory
+0034.382 (0) Total entities for the zip file: 10 directories, 246 files (0 skipped as non-modified), 25.9 MB
+0034.392 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0034.398 (0) Zip: backup_2025-02-16-1105_blacksporasite_22c6104e014e-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0037.267 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-others.zip.tmp: size is now: 15.50 MB
+0037.286 (0) Creating zip file manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-others.zip.list-temp.tmp)
+0037.291 (0) Successfully created zip file manifest (size: 16393)
+0037.487 (0) Created others zip (0) - 15886 KB in 3.2 s (5009.4 KB/s) (sha1: 867fae0ea4bbe7d3ec173ffc4031fa5f663568ad, sha256: b8a8f50dad8b57aa2d606d92b1ac632cb357716c86d44d0c7e2359ff5383bfd5)
+0037.509 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0037.511 (0) No remote despatch: user chose no remote backup service
+0037.515 (0) Recording as successfully uploaded: backup_2025-02-16-1105_blacksporasite_22c6104e014e-others.zip
+0037.519 (0) Deleting zip manifest (backup_2025-02-16-1105_blacksporasite_22c6104e014e-others.zip.list.tmp)
+0037.525 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0037.528 (0) Number of backup sets in history: 0; groups (db): 1
+0037.529 (0) Number of backup sets in history: 0; groups (files): 1
+0037.531 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0037.554 (0) Saving backup status to database (elements: 10)
+0037.562 (0) Beginning creation of database dump (WordPress DB)
+0037.591 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0037.607 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0037.735 (0) Output: /*M!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!4010 (truncated - 1489 bytes total)
+0037.743 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0037.810 (0) Table wp_options: Total expected rows (via COUNT): 536
+0037.914 (0) Table wp_options: Rows added in this batch (next record: 18130): 532 (uncompressed bytes in this segment=1687531) in 0.12 seconds
+0037.945 (0) Table wp_options: finishing file(s) (2, 309.7 KB)
+0037.968 (0) Table wp_users: Total expected rows (via COUNT): 2
+0037.988 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.011 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1304) in 0.05 seconds
+0038.046 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0038.066 (0) Table wp_usermeta: Total expected rows (via COUNT): 36
+0038.077 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.088 (0) Table wp_usermeta: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=3600) in 0.03 seconds
+0038.104 (0) Table wp_usermeta: finishing file(s) (2, 1.7 KB)
+0038.139 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 2
+0038.142 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.156 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 17): 2 (uncompressed bytes in this segment=2250) in 0.03 seconds
+0038.180 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.8 KB)
+0038.202 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0038.224 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.03 seconds
+0038.257 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0038.282 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+0038.288 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.295 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=658) in 0.02 seconds
+0038.312 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0038.338 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 6
+0038.340 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.354 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 9): 6 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0038.366 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0038.377 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0038.388 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.02 seconds
+0038.415 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0038.443 (0) Table wp_comments: Total expected rows (via COUNT): 4
+0038.456 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.465 (0) Table wp_comments: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=3347) in 0.03 seconds
+0038.473 (0) Table wp_comments: finishing file(s) (2, 1.3 KB)
+0038.483 (0) Table wp_links: Total expected rows (via COUNT): 0
+0038.487 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0038.493 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0038.512 (0) Table wp_postmeta: Total expected rows (via COUNT): 794
+0038.516 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.547 (0) Table wp_postmeta: Rows added in this batch (next record: 1199): 794 (uncompressed bytes in this segment=1002636) in 0.05 seconds
+0038.561 (0) Table wp_postmeta: finishing file(s) (2, 59.6 KB)
+0038.604 (0) Table wp_posts: Total expected rows (via COUNT): 183
+0038.613 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.647 (0) Table wp_posts: Rows added in this batch (next record: 334): 183 (uncompressed bytes in this segment=539827) in 0.08 seconds
+0038.673 (0) Table wp_posts: finishing file(s) (2, 44.8 KB)
+0038.687 (0) Table wp_term_relationships: Total expected rows (approximate): 9
+0038.711 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=810) in 0.03 seconds
+0038.732 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0038.768 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0038.769 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.774 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1058) in 0.02 seconds
+0038.793 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0038.822 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0038.839 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.02 seconds
+0038.868 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0038.889 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0038.909 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0038.917 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=862) in 0.04 seconds
+0038.929 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0038.950 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0038.970 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.02 seconds
+0038.987 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0039.008 (0) Table wp_give_commentmeta: Total expected rows (via COUNT): 0
+0039.023 (0) Table wp_give_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.02 seconds
+0039.037 (0) Table wp_give_commentmeta: finishing file(s) (2, 0.4 KB)
+0039.073 (0) Table wp_give_comments: Total expected rows (via COUNT): 0
+0039.109 (0) Table wp_give_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=665) in 0.06 seconds
+0039.249 (0) Table wp_give_comments: finishing file(s) (2, 0.4 KB)
+0039.311 (0) Table wp_give_donationmeta: Total expected rows (via COUNT): 264
+0039.314 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.354 (0) Table wp_give_donationmeta: Rows added in this batch (next record: 264): 264 (uncompressed bytes in this segment=14005) in 0.08 seconds
+0039.374 (0) Table wp_give_donationmeta: finishing file(s) (2, 2.6 KB)
+0039.393 (0) Table wp_give_donormeta: Total expected rows (via COUNT): 33
+0039.395 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.428 (0) Table wp_give_donormeta: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=12921) in 0.05 seconds
+0039.450 (0) Table wp_give_donormeta: finishing file(s) (2, 1.4 KB)
+0039.475 (0) Table wp_give_donors: Total expected rows (via COUNT): 11
+0039.478 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.489 (0) Table wp_give_donors: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=2302) in 0.02 seconds
+0039.503 (0) Table wp_give_donors: finishing file(s) (2, 0.8 KB)
+0039.513 (0) Table wp_give_formmeta: Total expected rows (via COUNT): 63
+0039.528 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.533 (0) Table wp_give_formmeta: Rows added in this batch (next record: 63): 63 (uncompressed bytes in this segment=7377) in 0.03 seconds
+0039.540 (0) Table wp_give_formmeta: finishing file(s) (2, 2.6 KB)
+0039.549 (0) Table wp_give_log: Total expected rows (via COUNT): 0
+0039.564 (0) Table wp_give_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=646) in 0.02 seconds
+0039.586 (0) Table wp_give_log: finishing file(s) (2, 0.4 KB)
+0039.604 (0) Table wp_give_migrations: Total expected rows (approximate): 24
+0039.612 (0) Table wp_give_migrations: Rows added in this batch (next record: 1000): 27 (uncompressed bytes in this segment=2698) in 0.02 seconds
+0039.617 (0) Table wp_give_migrations: finishing file(s) (2, 0.9 KB)
+0039.628 (0) Table wp_give_revenue: Total expected rows (via COUNT): 0
+0039.632 (0) Table wp_give_revenue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=552) in 0.01 seconds
+0039.637 (0) Table wp_give_revenue: finishing file(s) (2, 0.3 KB)
+0039.655 (0) Table wp_give_sequential_ordering: Total expected rows (via COUNT): 16
+0039.656 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.661 (0) Table wp_give_sequential_ordering: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=776) in 0.01 seconds
+0039.675 (0) Table wp_give_sequential_ordering: finishing file(s) (2, 0.4 KB)
+0039.688 (0) Table wp_give_sessions: Total expected rows (approximate): 1
+0039.699 (0) Table wp_give_sessions: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=630) in 0.01 seconds
+0039.724 (0) Table wp_give_sessions: finishing file(s) (2, 0.4 KB)
+0039.745 (0) Table wp_give_subscriptionmeta: Total expected rows (via COUNT): 0
+0039.755 (0) Table wp_give_subscriptionmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.02 seconds
+0039.771 (0) Table wp_give_subscriptionmeta: finishing file(s) (2, 0.4 KB)
+0039.789 (0) Table wp_give_subscriptions: Total expected rows (via COUNT): 0
+0039.798 (0) Table wp_give_subscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1241) in 0.02 seconds
+0039.808 (0) Table wp_give_subscriptions: finishing file(s) (2, 0.5 KB)
+0039.824 (0) Table wp_hfcm_scripts: Total expected rows (via COUNT): 0
+0039.826 (0) Table wp_hfcm_scripts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1381) in 0.01 seconds
+0039.845 (0) Table wp_hfcm_scripts: finishing file(s) (2, 0.6 KB)
+0039.855 (0) Table wp_litespeed_img_optming: Total expected rows (via COUNT): 0
+0039.857 (0) Table wp_litespeed_img_optming: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=764) in 0.00 seconds
+0039.866 (0) Table wp_litespeed_img_optming: finishing file(s) (2, 0.4 KB)
+0039.874 (0) Table wp_nextend2_image_storage: Total expected rows (via COUNT): 0
+0039.876 (0) Table wp_nextend2_image_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=591) in 0.00 seconds
+0039.882 (0) Table wp_nextend2_image_storage: finishing file(s) (2, 0.4 KB)
+0039.901 (0) Table wp_nextend2_section_storage: Total expected rows (via COUNT): 1
+0039.911 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.933 (0) Table wp_nextend2_section_storage: Rows added in this batch (next record: 10000): 1 (uncompressed bytes in this segment=1113) in 0.04 seconds
+0039.953 (0) Table wp_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0039.962 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0039.965 (0) Table wp_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0039.971 (0) Table wp_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0039.986 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 1
+0039.989 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0039.997 (0) Table wp_nextend2_smartslider3_sliders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=20517) in 0.02 seconds
+0040.003 (0) Table wp_nextend2_smartslider3_sliders: finishing file(s) (2, 3.8 KB)
+0040.026 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0040.035 (0) Table wp_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=659) in 0.01 seconds
+0040.046 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.3 KB)
+0040.098 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (via COUNT): 2
+0040.110 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.117 (0) Table wp_nextend2_smartslider3_slides: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=30909) in 0.05 seconds
+0040.149 (0) Table wp_nextend2_smartslider3_slides: finishing file(s) (2, 2.8 KB)
+0040.173 (0) Table wp_wfauditevents: Total expected rows (via COUNT): 0
+0040.178 (0) Table wp_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.01 seconds
+0040.257 (0) Table wp_wfauditevents: finishing file(s) (2, 0.4 KB)
+0040.333 (0) Table wp_wfblockediplog: Total expected rows (approximate): 47
+0040.343 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 1000): 849 (uncompressed bytes in this segment=55034) in 0.01 seconds
+0040.377 (0) Table wp_wfblockediplog: finishing file(s) (2, 6.8 KB)
+0040.433 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 21
+0040.456 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.462 (0) Table wp_wfblocks7: Rows added in this batch (next record: 1239): 21 (uncompressed bytes in this segment=3749) in 0.03 seconds
+0040.472 (0) Table wp_wfblocks7: finishing file(s) (2, 1 KB)
+0040.487 (0) Table wp_wfconfig: Total expected rows (approximate): 281
+0040.564 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 284 (uncompressed bytes in this segment=875476) in 0.09 seconds
+0040.579 (0) Table wp_wfconfig: finishing file(s) (2, 445 KB)
+0040.598 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0040.604 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=751) in 0.01 seconds
+0040.612 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.5 KB)
+0040.621 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0040.624 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=482) in 0.01 seconds
+0040.637 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0040.650 (0) Table wp_wffilemods: Total expected rows (approximate): 11913
+0041.130 (0) Table wp_wffilemods: binary mysqldump finished (writes: 40, bytes 3286556, return code 0) in 0.48 seconds
+0041.154 (0) Table wp_wffilemods: finishing file(s) (1, 1061.7 KB)
+0041.160 (0) Table wp_wfhits: Total expected rows (approximate): 1495
+0041.242 (0) Table wp_wfhits: Rows added in this batch (next record: 43236): 1892 (uncompressed bytes in this segment=750564) in 0.08 seconds
+0041.253 (0) Table wp_wfhits: finishing file(s) (2, 50.8 KB)
+0041.275 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0041.280 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=545) in 0.01 seconds
+0041.303 (0) Table wp_wfhoover: finishing file(s) (2, 0.4 KB)
+0041.322 (0) Table wp_wfissues: Total expected rows (via COUNT): 1
+0041.329 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.348 (0) Table wp_wfissues: Rows added in this batch (next record: 297): 1 (uncompressed bytes in this segment=2101) in 0.03 seconds
+0041.371 (0) Table wp_wfissues: finishing file(s) (2, 1 KB)
+0041.382 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 11502
+0041.602 (0) Table wp_wfknownfilelist: binary mysqldump finished (writes: 32, bytes 2084201, return code 0) in 0.22 seconds
+0041.617 (0) Table wp_wfknownfilelist: finishing file(s) (1, 156 KB)
+0041.627 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0041.637 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=678) in 0.01 seconds
+0041.674 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0041.711 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0041.714 (0) Table wp_wflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=708) in 0.00 seconds
+0041.721 (0) Table wp_wflocs: finishing file(s) (2, 0.4 KB)
+0041.734 (0) Table wp_wflogins: Total expected rows (via COUNT): 548
+0041.750 (0) Table wp_wflogins: Rows added in this batch (next record: 548): 548 (uncompressed bytes in this segment=121051) in 0.02 seconds
+0041.758 (0) Table wp_wflogins: finishing file(s) (2, 14.5 KB)
+0041.765 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0041.767 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=711) in 0.00 seconds
+0041.781 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0041.786 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0041.788 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=574) in 0.00 seconds
+0041.798 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.4 KB)
+0041.804 (0) Table wp_wfls_settings: Total expected rows (approximate): 26
+0041.808 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 30 (uncompressed bytes in this segment=2094) in 0.00 seconds
+0041.816 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0041.852 (0) Table wp_wfnotifications: Total expected rows (approximate): 0
+0041.861 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 9 (uncompressed bytes in this segment=2236) in 0.02 seconds
+0041.890 (0) Table wp_wfnotifications: finishing file(s) (2, 0.7 KB)
+0041.920 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0041.925 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.01 seconds
+0041.940 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0041.948 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0041.953 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=652) in 0.01 seconds
+0041.960 (0) Table wp_wfreversecache: finishing file(s) (2, 0.4 KB)
+0041.975 (0) Table wp_wfsecurityevents: Total expected rows (via COUNT): 0
+0041.988 (0) Table wp_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.02 seconds
+0042.014 (0) Table wp_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0042.023 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0042.025 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=749) in 0.01 seconds
+0042.032 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0042.042 (0) Table wp_wfstatus: Total expected rows (approximate): 1509
+0042.081 (0) Table wp_wfstatus: Rows added in this batch (next record: 8308): 1528 (uncompressed bytes in this segment=156285) in 0.04 seconds
+0042.122 (0) Table wp_wfstatus: finishing file(s) (2, 26.6 KB)
+0042.133 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0042.135 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=596) in 0.00 seconds
+0042.146 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0042.153 (0) Table wp_wfwaffailures: Total expected rows (via COUNT): 0
+0042.156 (0) Table wp_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=559) in 0.00 seconds
+0042.162 (0) Table wp_wfwaffailures: finishing file(s) (2, 0.4 KB)
+0042.170 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/ticazyxt/blackspora.site/wp-content/updraft/backup_2025-02-16-1105_blacksporasite_22c6104e014e-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0042.185 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_options.table.tmpr18131.gz (1/63/fopen): adding to final database dump
+0042.196 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_options.table.gz (2/63/fopen): adding to final database dump
+0042.205 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_users.table.tmpr3.gz (3/63/fopen): adding to final database dump
+0042.207 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_users.table.gz (4/63/fopen): adding to final database dump
+0042.209 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_usermeta.table.tmpr37.gz (5/63/fopen): adding to final database dump
+0042.211 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_usermeta.table.gz (6/63/fopen): adding to final database dump
+0042.223 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_actionscheduler_actions.table.tmpr18.gz (7/63/fopen): adding to final database dump
+0042.225 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_actionscheduler_actions.table.gz (8/63/fopen): adding to final database dump
+0042.226 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/63/fopen): adding to final database dump
+0042.227 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_actionscheduler_claims.table.gz (10/63/fopen): adding to final database dump
+0042.229 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_actionscheduler_groups.table.tmpr2.gz (11/63/fopen): adding to final database dump
+0042.230 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_actionscheduler_groups.table.gz (12/63/fopen): adding to final database dump
+0042.243 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_actionscheduler_logs.table.tmpr10.gz (13/63/fopen): adding to final database dump
+0042.247 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_actionscheduler_logs.table.gz (14/63/fopen): adding to final database dump
+0042.252 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_commentmeta.table.tmpr0.gz (15/63/fopen): adding to final database dump
+0042.255 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_commentmeta.table.gz (16/63/fopen): adding to final database dump
+0042.256 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_comments.table.tmpr7.gz (17/63/fopen): adding to final database dump
+0042.258 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_comments.table.gz (18/63/fopen): adding to final database dump
+0042.260 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_links.table.tmpr0.gz (19/63/fopen): adding to final database dump
+0042.262 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_links.table.gz (20/63/fopen): adding to final database dump
+0042.263 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_postmeta.table.tmpr1200.gz (21/63/fopen): adding to final database dump
+0042.265 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_postmeta.table.gz (22/63/fopen): adding to final database dump
+0042.268 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_posts.table.tmpr335.gz (23/63/fopen): adding to final database dump
+0042.272 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_posts.table.gz (24/63/fopen): adding to final database dump
+0042.275 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_term_relationships.table.tmpr100001.gz (25/63/fopen): adding to final database dump
+0042.276 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_term_relationships.table.gz (26/63/fopen): adding to final database dump
+0042.278 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_term_taxonomy.table.tmpr8.gz (27/63/fopen): adding to final database dump
+0042.279 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_term_taxonomy.table.gz (28/63/fopen): adding to final database dump
+0042.280 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_termmeta.table.tmpr0.gz (29/63/fopen): adding to final database dump
+0042.282 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_termmeta.table.gz (30/63/fopen): adding to final database dump
+0042.284 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_terms.table.tmpr8.gz (31/63/fopen): adding to final database dump
+0042.285 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_terms.table.gz (32/63/fopen): adding to final database dump
+0042.286 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_e_events.table.tmpr0.gz (33/63/fopen): adding to final database dump
+0042.287 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_e_events.table.gz (34/63/fopen): adding to final database dump
+0042.289 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_commentmeta.table.tmpr0.gz (35/63/fopen): adding to final database dump
+0042.291 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_commentmeta.table.gz (36/63/fopen): adding to final database dump
+0042.292 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_comments.table.tmpr0.gz (37/63/fopen): adding to final database dump
+0042.294 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_comments.table.gz (38/63/fopen): adding to final database dump
+0042.296 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_donationmeta.table.tmpr265.gz (39/63/fopen): adding to final database dump
+0042.305 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_donationmeta.table.gz (40/63/fopen): adding to final database dump
+0042.311 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_donormeta.table.tmpr34.gz (41/63/fopen): adding to final database dump
+0042.314 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_donormeta.table.gz (42/63/fopen): adding to final database dump
+0042.322 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_donors.table.tmpr12.gz (43/63/fopen): adding to final database dump
+0042.324 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_donors.table.gz (44/63/fopen): adding to final database dump
+0042.326 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_formmeta.table.tmpr64.gz (45/63/fopen): adding to final database dump
+0042.329 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_formmeta.table.gz (46/63/fopen): adding to final database dump
+0042.332 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_log.table.tmpr0.gz (47/63/fopen): adding to final database dump
+0042.333 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_log.table.gz (48/63/fopen): adding to final database dump
+0042.335 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_migrations.table.tmpr1001.gz (49/63/fopen): adding to final database dump
+0042.338 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_migrations.table.gz (50/63/fopen): adding to final database dump
+0042.344 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_revenue.table.tmpr0.gz (51/63/fopen): adding to final database dump
+0042.346 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_revenue.table.gz (52/63/fopen): adding to final database dump
+0042.353 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_sequential_ordering.table.tmpr17.gz (53/63/fopen): adding to final database dump
+0042.357 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_sequential_ordering.table.gz (54/63/fopen): adding to final database dump
+0042.378 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_sessions.table.tmpr1.gz (55/63/fopen): adding to final database dump
+0042.380 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_sessions.table.gz (56/63/fopen): adding to final database dump
+0042.392 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_subscriptionmeta.table.tmpr0.gz (57/63/fopen): adding to final database dump
+0042.395 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_subscriptionmeta.table.gz (58/63/fopen): adding to final database dump
+0042.400 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_subscriptions.table.tmpr0.gz (59/63/fopen): adding to final database dump
+0042.405 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_give_subscriptions.table.gz (60/63/fopen): adding to final database dump
+0042.410 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_hfcm_scripts.table.tmpr0.gz (61/63/fopen): adding to final database dump
+0042.423 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_hfcm_scripts.table.gz (62/63/fopen): adding to final database dump
+0042.426 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_litespeed_img_optming.table.tmpr0.gz (63/63/fopen): adding to final database dump
+0042.433 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_litespeed_img_optming.table.gz (64/63/fopen): adding to final database dump
+0042.437 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_image_storage.table.tmpr0.gz (65/63/fopen): adding to final database dump
+0042.439 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_image_storage.table.gz (66/63/fopen): adding to final database dump
+0042.440 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_section_storage.table.tmpr10001.gz (67/63/fopen): adding to final database dump
+0042.441 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_section_storage.table.gz (68/63/fopen): adding to final database dump
+0042.443 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_smartslider3_generators.table.tmpr0.gz (69/63/fopen): adding to final database dump
+0042.444 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_smartslider3_generators.table.gz (70/63/fopen): adding to final database dump
+0042.472 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_smartslider3_sliders.table.tmpr2.gz (71/63/fopen): adding to final database dump
+0042.488 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_smartslider3_sliders.table.gz (72/63/fopen): adding to final database dump
+0042.494 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_smartslider3_sliders_xref.table.tmpr1.gz (73/63/fopen): adding to final database dump
+0042.497 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (74/63/fopen): adding to final database dump
+0042.499 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_smartslider3_slides.table.tmpr3.gz (75/63/fopen): adding to final database dump
+0042.501 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_nextend2_smartslider3_slides.table.gz (76/63/fopen): adding to final database dump
+0042.503 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfauditevents.table.tmpr0.gz (77/63/fopen): adding to final database dump
+0042.504 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfauditevents.table.gz (78/63/fopen): adding to final database dump
+0042.506 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfblockediplog.table.tmpr1001.gz (79/63/fopen): adding to final database dump
+0042.511 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfblockediplog.table.gz (80/63/fopen): adding to final database dump
+0042.518 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfblocks7.table.tmpr1240.gz (81/63/fopen): adding to final database dump
+0042.520 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfblocks7.table.gz (82/63/fopen): adding to final database dump
+0042.522 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfconfig.table.tmpr1001.gz (83/63/fopen): adding to final database dump
+0042.531 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfconfig.table.gz (84/63/fopen): adding to final database dump
+0042.532 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfcrawlers.table.tmpr1001.gz (85/63/fopen): adding to final database dump
+0042.533 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfcrawlers.table.gz (86/63/fopen): adding to final database dump
+0042.534 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wffilechanges.table.tmpr1.gz (87/63/fopen): adding to final database dump
+0042.535 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wffilechanges.table.gz (88/63/fopen): adding to final database dump
+0042.540 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wffilemods.table.gz (89/63/fopen): adding to final database dump
+0042.559 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfhits.table.tmpr43237.gz (90/63/fopen): adding to final database dump
+0042.563 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfhits.table.gz (91/63/fopen): adding to final database dump
+0042.565 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfhoover.table.tmpr0.gz (92/63/fopen): adding to final database dump
+0042.567 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfhoover.table.gz (93/63/fopen): adding to final database dump
+0042.569 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfissues.table.tmpr298.gz (94/63/fopen): adding to final database dump
+0042.570 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfissues.table.gz (95/63/fopen): adding to final database dump
+0042.571 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfknownfilelist.table.gz (96/63/fopen): adding to final database dump
+0042.575 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wflivetraffichuman.table.tmpr1.gz (97/63/fopen): adding to final database dump
+0042.577 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wflivetraffichuman.table.gz (98/63/fopen): adding to final database dump
+0042.578 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wflocs.table.tmpr1.gz (99/63/fopen): adding to final database dump
+0042.581 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wflocs.table.gz (100/63/fopen): adding to final database dump
+0042.582 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wflogins.table.tmpr549.gz (101/63/fopen): adding to final database dump
+0042.584 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wflogins.table.gz (102/63/fopen): adding to final database dump
+0042.585 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (103/63/fopen): adding to final database dump
+0042.586 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfls_2fa_secrets.table.gz (104/63/fopen): adding to final database dump
+0042.588 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfls_role_counts.table.tmpr1.gz (105/63/fopen): adding to final database dump
+0042.589 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfls_role_counts.table.gz (106/63/fopen): adding to final database dump
+0042.590 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfls_settings.table.tmpr1001.gz (107/63/fopen): adding to final database dump
+0042.592 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfls_settings.table.gz (108/63/fopen): adding to final database dump
+0042.593 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfnotifications.table.tmpr1001.gz (109/63/fopen): adding to final database dump
+0042.594 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfnotifications.table.gz (110/63/fopen): adding to final database dump
+0042.595 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfpendingissues.table.tmpr0.gz (111/63/fopen): adding to final database dump
+0042.596 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfpendingissues.table.gz (112/63/fopen): adding to final database dump
+0042.598 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfreversecache.table.tmpr1001.gz (113/63/fopen): adding to final database dump
+0042.599 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfreversecache.table.gz (114/63/fopen): adding to final database dump
+0042.600 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfsecurityevents.table.tmpr0.gz (115/63/fopen): adding to final database dump
+0042.602 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfsecurityevents.table.gz (116/63/fopen): adding to final database dump
+0042.603 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfsnipcache.table.tmpr0.gz (117/63/fopen): adding to final database dump
+0042.605 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfsnipcache.table.gz (118/63/fopen): adding to final database dump
+0042.607 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfstatus.table.tmpr8309.gz (119/63/fopen): adding to final database dump
+0042.610 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfstatus.table.gz (120/63/fopen): adding to final database dump
+0042.616 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wftrafficrates.table.tmpr1.gz (121/63/fopen): adding to final database dump
+0042.618 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wftrafficrates.table.gz (122/63/fopen): adding to final database dump
+0042.619 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfwaffailures.table.tmpr0.gz (123/63/fopen): adding to final database dump
+0042.621 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db-table-wp_wfwaffailures.table.gz (124/63/fopen): adding to final database dump
+0042.628 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db.gz: finished writing out complete database file (2213.3 KB)
+0042.703 (0) Total database tables backed up: 63 (backup_2025-02-16-1105_blacksporasite_22c6104e014e-db.gz, size: 2266564, sha1: 809ee0b0971b44940cb2daf767697109d10a948b, sha256: c39677245f056d8c2217912ce7643d2a1a63408ce8c3c4155a1823c6330fe30c)
+0042.768 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-plugins.zip: plugins: This file has already been successfully processed
+0042.770 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-themes.zip: themes: This file has already been successfully processed
+0042.779 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-uploads.zip: uploads: This file has already been successfully processed
+0042.786 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-mu-plugins.zip: mu-plugins: This file has already been successfully processed
+0042.789 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-others.zip: others: This file has already been successfully processed
+0042.790 (0) backup_2025-02-16-1105_blacksporasite_22c6104e014e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0042.793 (0) Saving backup history. Total backup size: 139.1 MB
+0042.814 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0042.847 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0042.866 (0) No remote despatch: user chose no remote backup service
+0042.873 (0) Recording as successfully uploaded: backup_2025-02-16-1105_blacksporasite_22c6104e014e-db.gz
+0042.880 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0042.906 (0) Number of backup sets in history: 1; groups (db): 1
+0042.914 (0) Examining (for databases) backup set with group_id=0, nonce=22c6104e014e, datestamp=1739703928 (Feb 16 2025 11:05:28)
+0042.927 (0) This backup set is the backup set just made, so will not be deleted.
+0042.927 (0) Number of backup sets in history: 1; groups (files): 1
+0042.937 (0) Examining (for files) backup set with nonce=22c6104e014e, datestamp=1739703928 (Feb 16 2025 11:05:28)
+0042.937 (0) This backup set is the backup set just made, so will not be deleted.
+0042.945 (0) This backup set is the backup set just made, so will not be deleted.
+0042.946 (0) This backup set is the backup set just made, so will not be deleted.
+0042.946 (0) This backup set is the backup set just made, so will not be deleted.
+0042.946 (0) This backup set is the backup set just made, so will not be deleted.
+0042.946 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0042.952 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0042.966 (0) Resume backup (22c6104e014e, 0): finish run
+0042.976 (0) Decremented the semaphore (fd) by 1
+0043.032 (0) Semaphore (fd) unlocked
+0043.039 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0043.056 (0) No email will/can be sent - the user has not configured an email address.
+0043.057 (0) The backup succeeded and is now complete

@@ -1,0 +1,4 @@
+[11-Feb-2025 04:31:07 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_AES_KeySchedule" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/AES/Expanded.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/AES/Expanded.php on line 10

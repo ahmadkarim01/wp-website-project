@@ -1,0 +1,4 @@
+[11-Feb-2025 04:14:20 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Util" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12

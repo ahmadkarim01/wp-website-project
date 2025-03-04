@@ -1,0 +1,20 @@
+[15-Feb-2025 22:06:01 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Curve25519_Ge_P3" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P3.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P3.php on line 4
+[16-Feb-2025 00:07:37 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Curve25519_Ge_Precomp" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/Precomp.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/Precomp.php on line 4
+[16-Feb-2025 02:32:39 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Curve25519_Ge_Cached" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/Cached.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/Cached.php on line 4
+[16-Feb-2025 05:49:26 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Curve25519_Ge_P2" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P2.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P2.php on line 4
+[16-Feb-2025 12:02:42 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE_Sodium_Core_Curve25519_Ge_P1p1" not found in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P1p1.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/P1p1.php on line 4

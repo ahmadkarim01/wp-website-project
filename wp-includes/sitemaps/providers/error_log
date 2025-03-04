@@ -1,0 +1,24 @@
+[05-Feb-2025 15:11:36 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[05-Feb-2025 17:25:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[05-Feb-2025 21:09:59 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17
+[12-Feb-2025 19:23:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[12-Feb-2025 19:23:28 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[12-Feb-2025 19:23:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17

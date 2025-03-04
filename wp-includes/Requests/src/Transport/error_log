@@ -1,0 +1,16 @@
+[10-Feb-2025 13:10:17 UTC] PHP Fatal error:  Uncaught Error: Interface "WpOrg\Requests\Transport" not found in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
+[11-Feb-2025 04:15:57 UTC] PHP Fatal error:  Uncaught Error: Interface "WpOrg\Requests\Transport" not found in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Transport/Curl.php on line 25
+[12-Feb-2025 19:30:42 UTC] PHP Fatal error:  Uncaught Error: Interface "WpOrg\Requests\Transport" not found in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Transport/Curl.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Transport/Curl.php on line 25
+[12-Feb-2025 19:30:43 UTC] PHP Fatal error:  Uncaught Error: Interface "WpOrg\Requests\Transport" not found in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Transport/Fsockopen.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/ticazyxt/blackspora.site/wp-includes/Requests/src/Transport/Fsockopen.php on line 25
